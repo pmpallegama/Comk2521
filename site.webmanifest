@@ -1,7 +1,7 @@
 {
   "name": "COMK2521",
   "short_name": "COMK",
-  "start_url": ".",
+  "start_url": "./index.html",
   "icons": [
     {
       "src": "./web-app-manifest-192x192.png",
@@ -18,5 +18,24 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+ "shortcuts": [
+    {
+      "name": "Quick Start",
+      "short_name": "Start",
+      "description": "Launch the app directly to the main page.",
+      "url": "/index.html?source=pwa_shortcut",
+      "icons": [{ "src": "./favicon-96x96", "sizes": "96x96" }]
+    },
+    {
+      "name": "About Us",
+      "short_name": "About",
+      "description": "Learn more about our company.",
+      "url": "/about.html?source=pwa_shortcut",
+      "icons": [{ "src": "./favicon-96x96", "sizes": "96x96" }]
+    }
+  ],
+  "lang": "en-US",
+  "scope": "/",
+  "orientation": "portrait-primary"
 }
