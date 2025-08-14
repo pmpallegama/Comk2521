@@ -18,8 +18,5 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone",
-  "lang": "en-US",
-  "scope": "/",
-  "orientation": "portrait-primary"
+  "display": "standalone"
 }
