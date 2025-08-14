@@ -1,7 +1,7 @@
 {
   "name": "COMK2521",
   "short_name": "COMK",
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "icons": [
     {
       "src": "./web-app-manifest-192x192.png",
